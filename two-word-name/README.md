@@ -1,7 +1,5 @@
-# Replace All Dots
-The provided code was intended to replace all dots `.` in the specified String `str` with dashes `-`, but it's not working properly.
+# Abbreviate A Two Word Name
+Write a function to convert a two word name into its initials.
 
 # Task
-Fix the bug so we can all go home early.
-
-Note: String `str` will never be `null`.
+This kata strictly takes two words with one space between them. The output should be two capital letters with a dot separating them.
