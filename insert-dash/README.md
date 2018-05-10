@@ -1,4 +1,4 @@
-# My Head Is At the Wrong End
+# Insert Dash
 Write a function `insertDash` that will insert dashes `('-')` between any two odd numbers in a given `number`. Don't count zero as an odd number.
 
 # Task
