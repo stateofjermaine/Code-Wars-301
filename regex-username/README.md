@@ -1,5 +1,9 @@
-# My Head Is At the Wrong End
-Save the animals by putting their heads and tails back to normal. Given an array with three values (tail, body, head), re-arrange the array so that the animal is the right way round (head, body, tail).
+# Simple Validation of a Username
+Write a simple regex to validate a username. Allowed characters are:
+
+• lowercase letters
+• numbers
+• underscore
 
 # Task
-For all arrays/lists in the tests, change the element positions using the same logic.
+Length should be between 4 and 16 characters (both included).
