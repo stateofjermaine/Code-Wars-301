@@ -1,11 +1,15 @@
-function reachDestination( distance, speed ) {
-  let travelTime = distance / speed;
-  travelTime = ( Math.round( travelTime * 2 ) / 2 );
-  let pluralMessage = `The train will be there in ${travelTime} hours.`
-  let singularMessage = `The train will be there in ${travelTime} hour.`
-  if ( travelTime === 1 ) {
-    return singularMessage;
-  } else {
-    return pluralMessage;
+function isNice( arr ) {
+  if ( arr.length === 0 ) {
+    return false
   }
+  for ( let i = 0; i < arr.length; i++ ) {
+    for ( let j = 0; j < arr.length; j++ ) {
+      if ( arr[ i ] === arr[ j ] + 1 || arr[ i ] === arr[ j ] - 1 ) {
+        break;
+      } else if ( j === arr.length - 1 ) {
+        return false;
+      }
+    }
+  }
+  return true;
 }
