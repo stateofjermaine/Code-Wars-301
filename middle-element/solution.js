@@ -1,15 +1,6 @@
-function isNice( arr ) {
-  if ( arr.length === 0 ) {
-    return false
-  }
-  for ( let i = 0; i < arr.length; i++ ) {
-    for ( let j = 0; j < arr.length; j++ ) {
-      if ( arr[ i ] === arr[ j ] + 1 || arr[ i ] === arr[ j ] - 1 ) {
-        break;
-      } else if ( j === arr.length - 1 ) {
-        return false;
-      }
-    }
-  }
-  return true;
-}
+var gimme = function( inputArray ) {
+  let sortedArray = inputArray.slice().sort( ( a, b ) => { return a - b } );
+  let middleValue = sortedArray[ 1 ];
+  let valueIndex = inputArray.indexOf( middleValue );
+  return valueIndex;
+};

@@ -1,5 +1,4 @@
-# Nice Array
-A Nice array is defined to be an array where for every value n in the array, there is also an element n-1 or n+1 in the array.
-
+# Middle Element
+As a part of this kata, you need to create a function that when provided with a triplet, returns the index of the numerical element that lies between the other two elements. The input to the function will be an array of three distinct numbers.
 # Task
-Write a function `isNice` that returns `true` if its array argument is a Nice array, else `false`. You should also return `false` if input array has no elements.
+As a part of this kata, you need to create a function that when provided with a triplet, returns the index of the numerical element that lies between the other two elements.
