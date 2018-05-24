@@ -1,5 +1,9 @@
-# Sum of Odd Cubed Numbers
-Find the sum of the odd numbers within an array, after cubing the initial integers. This function will return undefined if any of the values aren't numbers.
+# Convert String to CamelCase
+Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized.
+
+Examples:
+toCamelCase( "the-stealth-warrior" ); // returns "theStealthWarrior"
+toCamelCase( "The_Stealth_Warrior" ); // returns "TheStealthWarrior"
 
 # Task
-Find the sum of the odd numbers within an array, after cubing the initial integers.
+Complete the function so that it converts dash/underscore delimited words into CamelCase.
