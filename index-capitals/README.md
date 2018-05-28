@@ -1,9 +1,5 @@
 # Convert String to CamelCase
-Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized.
-
-Examples:
-toCamelCase( "the-stealth-warrior" ); // returns "theStealthWarrior"
-toCamelCase( "The_Stealth_Warrior" ); // returns "TheStealthWarrior"
+Given a string and an array of integers representing indices, capitalize all letters at the given indices. The input will be a lowercase string with no spaces and an array of digits.
 
 # Task
-Complete the function so that it converts dash/underscore delimited words into CamelCase.
+Given a string and an array of integers representing indices, capitalize all letters at the given indices.

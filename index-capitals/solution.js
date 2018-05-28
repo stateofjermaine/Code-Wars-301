@@ -1,9 +1,11 @@
-function toCamelCase( str ) {
-  let newArray = str.includes( '-' ) ? str.split( '-' ) : str.split( '_' );
-  let result = [ newArray[ 0 ] ];
-  for ( let i = 1; i < newArray.length; i++ ) {
-    result.push( newArray[ i ].substring( 0, 1 ).toUpperCase() );
-    result.push( newArray[ i ].substring( 1 ).toLowerCase() );
+function capitalize( str, arr ) {
+  let splitArr = str.split( '' );
+  for ( let i = 0; i < splitArr.length; i++ ) {
+    for ( let j = 0; j < arr.length; j++ ) {
+      if ( i === arr[ j ] ) {
+        splitArr[ i ] = splitArr[ i ].toUpperCase();
+      }
+    }
   }
-  return result.join( '' );
-}
+  return splitArr.join( '' );
+};
